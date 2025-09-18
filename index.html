@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mobi's blog</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header class="site-header">
+        <div class="logo">
+          <img src="img/moby logo.png" alt="logo" class="logo" />
+          <a href="index.html" class="site-name"
+            ><span class="site-name">Moby's blog</span></a
+          >
+        </div>
+        <nav class="menu">
+          <ul>
+            <li><a href="index.html">Домой</a></li>
+            <li><a href="news.html">Новости</a></li>
+            <li><a href="photos.html">Фотоальбом</a></li>
+            <li><a href="music.html">Музыка для собак</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <!-- <input type="checkbox" id="zoom-carousel-1" class="zoom-toggle" />
+        <div class="zoom-popup zoom-popup-carousel-1">
+          <label for="zoom-carousel-1" class="zoom-close">×</label>
+          <label for="zoom-carousel-1" class="zoom-overlay"></label>
+
+          <div class="zoom-image">
+            <img src="img/carousel/gogo.jpeg" alt="gogo" />
+          </div>
+        </div> -->
+
+        <section class="hero">
+          <div class="hero-text">
+            <h1>Привет! Я Моби!</h1>
+            <p>
+              Я — метис кане-корсо, меня нашли на улице, и теперь у меня самая
+              классная семья! <br />Я люблю выполнять команды, кушать, лежать на
+              балконе и узнавать мир вокруг себя
+            </p>
+          </div>
+          <div class="hero-image">
+            <img
+              src="img/main-photo-1.png"
+              class="hero-image"
+              alt="Moby's face"
+            />
+          </div>
+        </section>
+
+        <section class="story">
+          <h2>Моя история</h2>
+
+          <img src="img/story-photo.jpeg" class="story-photo" alt="my-family" />
+
+          <div class="story-text">
+            <p>
+              Родился я не помню где, в конце 2024 года. У меня был немного
+              старший брат, мамы я не помню совсем. Помню холод, твердый
+              асфальт, тепло брата, как мы играли с ним, как спали вдвоем. Люди
+              кормили нас хлебом и поили водой. У нас были большие животики и
+              они болели. Какие то люди забирали у нас хлею и давали нам
+              маленькие вкусные камушки. Они очень приятно хрустели во рту,
+              Правда, мой брат мне не очень давал есть. Ел в оснвоном сам и у
+              меня забирал. мне было стращно есть потому что он отбирал. Какие
+              то люди даже поднимали меня и ставили на крышу будки что бы я мог
+              поесть.
+            </p>
+            <p>
+              Мы понемногу росли. Брат становился больше меня, на улице
+              становилось холоднее. Нас кормили каждый день, сделали теплую
+              будку, каждую ночь добрая женщиа приносила нам бутыцлку горячей
+              воды и мы спали рядом с ней.
+            </p>
+            <p>
+              Однажды мой братик куда то ушел, и я больше его не видел. Сразу
+              после этого мне стало плохо-плохо. У меня болел живот сильно, лапы
+              стали слабые. Болело в голове, я ничего не хотел и не мог делать.
+              прото лежал и было плохо. Не знаю, сколько прошло так времени.
+              Наверное много. Одной ночью стало очень громко и страшно. Небо
+              сильно шумело, хлопало, кричало и рычало. И постоянно мигал свет,
+              разных цветов. Мне казалось целой вечностью эта громкая громкая
+              ночь
+            </p>
+
+            <p>
+              Через несколько дней после этой ночи меня забрала какая то женщина
+              к себе домой. Я плохо помню то время - я много спал, она возила
+              меня куда-то, где мне кололи лапу и я лежал и спал. Там странно
+              пахло и всем было страшно, кроме людей.<br />
+
+              Я не помню, сколько прошло времени, но в один из дней за мной
+              приехал мой папа, забрал меня у этой женщины и повез домой. Когда
+              мне стало лучше, я узнал папу - это он кормил и грел меня на улице
+              , когда я жил с братом. Он забрал меня домой, теперь у меня есть
+              семья! мама, папа, и сестра Гого.
+            </p>
+          </div>
+        </section>
+        <input type="radio" id="zoom-carousel-1" name="zoom-popup" hidden />
+        <input type="radio" id="zoom-carousel-2" name="zoom-popup" hidden />
+        <input type="radio" id="zoom-carousel-3" name="zoom-popup" hidden />
+        <input type="radio" id="zoom-carousel-4" name="zoom-popup" hidden />
+        <input type="radio" id="zoom-carousel-5" name="zoom-popup" hidden />
+        <input type="radio" id="zoom-carousel-6" name="zoom-popup" hidden />
+        <div class="zoom-popup zoom-popup-carousel-1">
+          <label for="zoom-close" class="zoom-overlay"></label>
+          <label for="zoom-carousel-2" class="zoom-next">›</label>
+          <div class="zoom-image">
+            <img src="img/carousel/gogo.jpeg" alt="gogo" />
+            <label for="zoom-close" class="zoom-close">×</label>
+          </div>
+        </div>
+
+        <div class="zoom-popup zoom-popup-carousel-2">
+          <label for="zoom-close" class="zoom-overlay"></label>
+          <label for="zoom-carousel-1" class="zoom-prev">‹</label>
+          <label for="zoom-carousel-3" class="zoom-next">›</label>
+          <div class="zoom-image">
+            <img src="img/carousel/mobi-i-gogo.jpeg" alt="gogo-i-mobi" />
+            <label for="zoom-close" class="zoom-close">×</label>
+          </div>
+        </div>
+        <div class="zoom-popup zoom-popup-carousel-3">
+          <label for="zoom-close" class="zoom-overlay"></label>
+          <label for="zoom-carousel-2" class="zoom-prev">‹</label>
+          <label for="zoom-carousel-4" class="zoom-next">›</label>
+          <div class="zoom-image">
+            <img src="img/carousel/mama.jpeg" alt="mama" />
+            <label for="zoom-close" class="zoom-close">×</label>
+          </div>
+        </div>
+        <div class="zoom-popup zoom-popup-carousel-4">
+          <label for="zoom-close" class="zoom-overlay"></label>
+          <label for="zoom-carousel-3" class="zoom-prev">‹</label>
+          <label for="zoom-carousel-5" class="zoom-next">›</label>
+          <div class="zoom-image">
+            <img src="img/carousel/mobi-i-mama.jpeg" alt="mobi-i-mama" />
+            <label for="zoom-close" class="zoom-close">×</label>
+          </div>
+        </div>
+        <div class="zoom-popup zoom-popup-carousel-5">
+          <label for="zoom-close" class="zoom-overlay"></label>
+          <label for="zoom-carousel-4" class="zoom-prev">‹</label>
+          <label for="zoom-carousel-6" class="zoom-next">›</label>
+          <div class="zoom-image">
+            <img src="img/carousel/papa.jpeg" alt="papa" />
+            <label for="zoom-close" class="zoom-close">×</label>
+          </div>
+        </div>
+        <div class="zoom-popup zoom-popup-carousel-6">
+          <label for="zoom-close" class="zoom-overlay"></label>
+          <label for="zoom-carousel-5" class="zoom-prev">‹</label>
+          <div class="zoom-image">
+            <img src="img/carousel/mobi-i-papa.jpeg" alt="mobi-i-papa" />
+            <label for="zoom-close" class="zoom-close">×</label>
+          </div>
+        </div>
+
+        <section class="carousel">
+          <h2>Моя семья</h2>
+          <input type="radio" name="carousel" id="slide1" checked />
+          <input type="radio" name="carousel" id="slide2" />
+          <input type="radio" name="carousel" id="slide3" />
+          <input type="radio" name="carousel" id="slide4" />
+          <input type="radio" name="carousel" id="slide5" />
+          <input type="radio" name="carousel" id="slide6" />
+
+          <div class="slides">
+            <div class="slide">
+              <label for="zoom-carousel-1">
+                <img src="img/carousel/gogo.jpeg" alt="gogo" />
+              </label>
+              <p>Моя сестрёнка Гого</p>
+            </div>
+            <!-- <div class="arrow arrow-left"><label for="slide1"></label></div>
+            <div class="arrow arrow-right"><label for="slide3"></label></div> -->
+            <div class="slide">
+              <label for="zoom-carousel-2">
+                <img src="img/carousel/mobi-i-gogo.jpeg" alt="gogo-i-mobi" />
+              </label>
+              <p>А это я с сестренкой</p>
+            </div>
+            <div class="slide">
+              <label for="zoom-carousel-3">
+                <img src="img/carousel/mama.jpeg" alt="mama" />
+              </label>
+              <p>А это мамуля!</p>
+            </div>
+            <div class="slide">
+              <label for="zoom-carousel-4">
+                <img src="img/carousel/mobi-i-mama.jpeg" alt="mobi-i-mama" />
+              </label>
+              <p>а это с мамууулееей)</p>
+            </div>
+            <div class="slide">
+              <label for="zoom-carousel-5">
+                <img src="img/carousel/papa.jpeg" alt="papa" />
+              </label>
+              <p>А это папа мой</p>
+            </div>
+
+            <div class="slide">
+              <label for="zoom-carousel-6">
+                <img src="img/carousel/mobi-i-papa.jpeg" alt="mobi-i-papa" />
+              </label>
+              <p>А это с папой едем не помню куда</p>
+            </div>
+          </div>
+          <div class="carousel-arrows slide1">
+            <label class="arrow-prew" for="slide6">‹</label>
+            <label class="arrow-next" for="slide2">›</label>
+          </div>
+          <div class="carousel-arrows slide2">
+            <label class="arrow-prew" for="slide1">‹</label>
+            <label class="arrow-next" for="slide3">›</label>
+          </div>
+          <div class="carousel-arrows slide3">
+            <label class="arrow-prew" for="slide2">‹</label>
+            <label class="arrow-next" for="slide4">›</label>
+          </div>
+          <div class="carousel-arrows slide4">
+            <label class="arrow-prew" for="slide3">‹</label>
+            <label class="arrow-next" for="slide5">›</label>
+          </div>
+          <div class="carousel-arrows slide5">
+            <label class="arrow-prew" for="slide4">‹</label>
+            <label class="arrow-next" for="slide6">›</label>
+          </div>
+          <div class="carousel-arrows slide6">
+            <label class="arrow-prew" for="slide5">‹</label>
+            <label class="arrow-next" for="slide1">›</label>
+          </div>
+
+          <div class="navigation">
+            <label for="slide1"></label>
+            <label for="slide2"></label>
+            <label for="slide3"></label>
+            <label for="slide4"></label>
+            <label for="slide5"></label>
+            <label for="slide6"></label>
+          </div>
+        </section>
+
+        <section class="skills">
+          <h2>Что я умею:</h2>
+          <ul>
+            <li>⏳ Ждать</li>
+            <li>🪑 Сидеть лежать</li>
+            <li>🤝 Давать лапу</li>
+            <li>🔍 Искать</li>
+            <li>🦘 Запрыгивать</li>
+            <li>🎾 Приносить мячик</li>
+          </ul>
+        </section>
+
+        <section class="lovely-food">
+          <h2>Что я люблю?</h2>
+          <div class="fav-content">
+            <!-- <img src="img/" alt="Фото в наморднике" /> -->
+            <img
+              class="fav-photo"
+              src="img/mobi-v-namordnikee.jpeg"
+              alt="Моби в наморднике"
+            />
+            <div class="fav-text">
+              <p>
+                Кушать. Самое разное - моркошку, картошку, яблочко, огурчиковое,
+                чуть чуть бананчика, творог, сметанку, сырик, перчик, корм,
+                разные сушеные штуки, ушки, хлеб (но мама не дает), люблю
+                куричку, яичко, ну и много чего еще что подбираю на улице.
+                Правда сейчас не подбираю, потому что по улице хожу в наморднике
+                :(
+              </p>
+              <br />
+              <p>
+                Еще очень люблю гулять, бегать, играть, нюхать, когда чешут
+                грудку, лежать на балконе, бегать за кошками, есть траву и
+                играть с игрушками
+              </p>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <!-- <div class="glass-background"> -->
+        <a href="#" class="scroll-to-up">Наверх</a>
+        <!-- </div> -->
+        <div class="glass-background">
+          <form>
+            <div class="subscribe-form">
+              <label for="e-mail">Подпишись на рассылку - </label>
+              <input
+                type="text"
+                class="input"
+                name="e-mail"
+                id="e-mail"
+                placeholder="example@mail.com"
+                required
+              />
+              <button type="submit" class="subscribe-button"></button>
+            </div>
+          </form>
+        </div>
+        <div class="glass-background">
+          <p>© 2025 Moby's Blog. Все права защищены.</p>
+        </div>
+      </footer>
+    </div>
+    <input type="radio" name="zoom-popup" id="zoom-close" hidden checked />
+  </body>
+</html>
