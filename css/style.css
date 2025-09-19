@@ -326,6 +326,7 @@ input:focus::placeholder {
 .story-text {
   font-size: 1.2rem;
   line-height: 1.9;
+  text-align: justify;
 }
 
 .story-text p {
@@ -594,6 +595,7 @@ input[type="radio"] {
 .fav-content {
   display: grid;
   grid-template-columns: 1fr 1fr;
+
   align-items: center;
   gap: 2rem;
 }
@@ -601,6 +603,7 @@ input[type="radio"] {
 .fav-text {
   font-size: 1.2rem;
   line-height: 1.6;
+  padding: 0rem;
 }
 .fav-photo {
   max-width: 100%;
@@ -1057,6 +1060,10 @@ input[type="radio"] {
   .story.text {
     font-size: 0.9rem;
   }
+  .fav-content {
+    display: flex;
+    flex-direction: column;
+  }
 
   .footer {
     padding: 1rem;
@@ -1125,31 +1132,30 @@ input[type="radio"] {
     justify-content: center;
     align-items: center;
   }
-}
+  .zoom-close {
+    top: 1rem;
+    right: 1rem;
+  }
 
-.zoom-close {
-  top: 1rem;
-  right: 1rem;
-}
+  .music-container {
+    gap: 3rem;
+    padding: 1rem;
+  }
 
-.music-container {
-  gap: 3rem;
-  padding: 1rem;
-}
+  .music-card {
+    padding: 1rem 0.5rem;
+    border-radius: 0.5rem;
+  }
 
-.music-card {
-  padding: 1rem 0.5rem;
-  border-radius: 0.5rem;
-}
+  .iframe-container {
+    padding-bottom: 56.25%;
+    margin: 1rem auto;
+    max-width: 100%;
+  }
 
-.iframe-container {
-  padding-bottom: 56.25%;
-  margin: 1rem auto;
-  max-width: 100%;
-}
-
-.content-caption {
-  font-size: 0.95rem;
-  padding: 0.5rem;
-  margin: 0;
+  .content-caption {
+    font-size: 0.95rem;
+    padding: 0.5rem;
+    margin: 0;
+  }
 }
